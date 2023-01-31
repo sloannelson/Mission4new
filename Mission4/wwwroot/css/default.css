@@ -1,0 +1,11 @@
+﻿body {
+    font-family:Perpetua;
+    background: radial-gradient(circle, rgba(242,130,208,1) 0%, rgba(252,203,120,1) 100%);
+}
+
+label {
+    font-size: 20px;
+    color:WindowFrame;
+    width: 150px;
+    display: inline-block;
+}
