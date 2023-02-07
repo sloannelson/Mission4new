@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+@model Mission4.Models.calculatorModel  
+
+
+<h2>Grade Calculator</h2>
+<form method="post">
+    <label>Assignments</label><input id="A" asp-for="A" />
+    <br />
+    <label>Group Projects</label><input id="G" asp-for="G" />
+    <br />
+    <label>Quizzes</label><input id="Q" asp-for="Q" />
+    <br />
+    <label>Midterm Exam</label><input id="M" asp-for="M" />
+    <br />
+    <label>Final Exam</label><input id="F" asp-for="F" />
+    <br />
+    <label>Intex</label><input id="I" asp-for="I" />
+    <br />
+    <input id="btnSend" type="submit" value="Calculate" />
+
+    <div asp-validation-summary="All"></div>
+
+</form>
+
+<script src="js/calculator.js"></script>
